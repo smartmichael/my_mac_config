@@ -1,0 +1,10 @@
+ulimit -n 1024
+alias ls='ls -G'
+alias ll='ls -l -G'
+
+source /usr/local/etc/bash_completion.d/git-completion.bash
+
+export SVN_EDITOR=vim
+
+export https_proxy=http://dev-proxy.oa.com:8080
+export http_proxy=http://dev-proxy.oa.com:8080
